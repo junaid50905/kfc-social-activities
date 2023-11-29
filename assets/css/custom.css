@@ -19,6 +19,12 @@ p.details-content {
     font-size: 40px;
 } */
 
+.parent img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
 #weaving-dreams .icons .icon {
     border-radius: 50%;
     background-color: white;
@@ -77,13 +83,13 @@ p.details-content {
     -moz-box-shadow: -15px 10px 0px 0px rgba(232, 228, 227, 0.75);
 }
 
-footer {
+#copyright_color {
     margin: 0 12px;
 }
 
-footer .divs div {
-    height: 100px;
-    width: 80px;
+#copyright_color .divs div {
+    height: 70px;
+    width: 60px;
     background-color: #FE0000;
 }
 
